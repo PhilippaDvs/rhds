@@ -1,4 +1,7 @@
 *.zip
 *.tar.gz
 *.xlsx
-congif.env
+config.env
+/.vscode/
+analysis_cache/
+analysis_files/
