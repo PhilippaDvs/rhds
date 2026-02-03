@@ -13,12 +13,13 @@ install.packages(c(
     "rmarkdown",
     "IRkernel",
     "gt",
-    "gtsummary"
+    "gtsummary",
+    "devtools"
 ))
 
 # Install specific version of meffonym package from GitHub
 remotes::install_github("perishky/meffonym@9faface")
-remotes::install_github("PhilippaDvis/rhds.rpackage@v0.1.0")
+remotes::install_github("PhilippaDvs/rhds.rpackage@v0.1.0")
 
 
 # Register R kernel with Jupyter
